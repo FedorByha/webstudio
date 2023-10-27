@@ -92,8 +92,9 @@ body {
 
 .hero {
     padding: 200px 0 ;
-    background-color: #2F303A;
+    background-image: url("/image.png");
     height: 600px;
+    background: linear-gradient(#2F303A66);
 }
 
 
@@ -124,6 +125,42 @@ body {
 
 .features {
     padding: 94px 0;
+}
+
+.antena-img::before {
+    background-image: url("/css/Group\ 1.png");
+    width: 270px;
+    height: 120px;
+    content: "";
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.clock-img::before {
+    background-image: url("/css/Group\ 2.png");
+    width: 270px;
+    height: 120px;
+    content: "";
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.diagram-img::before {
+    background-image: url("/css/Group\ 3.png");
+    width: 270px;
+    height: 120px;
+    content: "";
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.astronaut-img::before {
+    background-image: url("/css/Group\ 4.png");
+    width: 270px;
+    height: 120px;
+    content: "";
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
 .features-list {
