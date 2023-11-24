@@ -308,3 +308,18 @@ body {
 .portfolio-list-item-text > p {
     color: var(--portfolio-list-item-desc);
 }
+
+
+
+
+
+
+
+
+.team-icons-list {
+    padding-top: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
