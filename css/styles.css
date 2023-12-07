@@ -14,6 +14,8 @@ body {
     --footer-background-color: #2F303A;
     --portfolio-item-color: #EEEEEE;
     --portfolio-list-item-desc: #757575;
+    --team-icon-svg: #AFB1B8;
+    --footer-icons-svg: #FFFFFF1A;
 }
 
 .container{
@@ -34,6 +36,12 @@ body {
 
 .header-logo {
     color: var(--header-logo-color);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 .nav-list {
@@ -181,6 +189,10 @@ body {
     gap: 30px;
 }
 
+.work-list-img {
+    display: block;
+}
+
 .work-title {
     text-align: center;
     margin-bottom: 50px;
@@ -224,7 +236,7 @@ body {
 }
 
 .team-text-container {
-    padding: 30px 70px;
+    padding: 30px;
 }
 
 .footer {
@@ -322,4 +334,106 @@ body {
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+
+
+.clients-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+.clients-section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-list-svg {
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    fill: var(--team-icon-svg);
+    transition: 0.5s;
+}
+.clients-list-svg:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    cursor: pointer;
+}
+
+.footer-icons-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-social-wrap > p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--main-white-color);
+    text-transform: uppercase;
+}
+
+
+.footer-icons-title {
+    margin-bottom: 20px;
+}
+
+.team-icons-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: var(--team-icon-svg);
+    transition: 0.5s;
+}
+.team-icons-link:hover {
+    background-color: var(--accent-color);
+    color: var(--main-white-color);
+}
+
+.team-icon-svg {
+    fill: currentColor;
+}
+
+
+.footer-icons-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: var(--footer-icons-svg);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: var(--footer-icons-svg);
+    transition: 0.5s;
+}
+
+.footer-icons-link:hover {
+    background-color: var(--accent-color);
+    color: var(--main-white-color);
+}
+
+.footer-icons-svg {
+    fill: var(--main-white-color);
 }
