@@ -16,6 +16,7 @@ body {
     --portfolio-list-item-desc: #757575;
     --team-icon-svg: #AFB1B8;
     --footer-icons-svg: #FFFFFF1A;
+    --textarea-placeholder-color: #75757580;
 }
 
 .container{
@@ -475,3 +476,104 @@ body {
     position: relative;
 
 }
+
+
+
+
+
+
+
+
+
+.js-title {
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 12px;
+}   
+
+.js-label {
+    color: var(--portfolio-list-item-desc);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+}
+
+.js-span {
+    margin-bottom: 4px;
+}
+
+.js-checkbox-desc > a  {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+}
+
+.js-checkbox-desc {
+    color: var(--second-text-color);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+textarea::placeholder {
+    color: var(--textarea-placeholder-color);
+}
+
+textarea {
+    border: 1px solid #21212133;
+    border-radius: 1px;
+
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #21212133;
+}
+
+.backdrop{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    min-height: 300px;
+    padding: 15px;
+    background-color: skyblue;
+    
+  }
+  
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .js-icon {
+    fill: currentColor;
+    
+  }
