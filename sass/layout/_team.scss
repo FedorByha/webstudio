@@ -1,0 +1,66 @@
+.section-team {
+    padding: 94px 0;
+    background-color: var(--team-background-color);
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-list-item {
+    background-color: var(--main-white-color);
+}
+
+.team-list-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team-text-container {
+    padding: 30px;
+}
+
+.team-list-text {
+    text-align: center;
+}
+
+.team-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.team-icons-list {
+    padding-top: 16px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-icons-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: $team-icon-svg;
+    transition: 250ms;
+}
+
+.team-icons-link:hover {
+    background-color: $accent-color;
+    color: $main-color;
+}
+
+.team-icon-svg {
+    fill: currentColor;
+}
+
+

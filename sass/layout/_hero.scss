@@ -18,17 +18,16 @@
     }
 
     &-btn {
-        background-color: $accent-color;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 700;
         line-height: 30px;
         letter-spacing: 0.06em;
         text-align: center;
-        background-color: #2196F3;
         padding: 10px 32px;
         border-radius: 4px;
-        color: $main-color;
         margin: 0 auto;
+        background-color: $accent-color;
+        color: $main-color;
     }
 }
