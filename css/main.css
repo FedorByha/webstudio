@@ -332,7 +332,7 @@ button {
 }
 
 .clock-img::before {
-  background-image: url("../../images//clock.png");
+  background-image: url("../images//clock.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 270px;
