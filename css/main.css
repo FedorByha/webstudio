@@ -320,7 +320,7 @@ button {
 }
 
 .antena-img::before {
-  background-image: url("../../images/antenna.png");
+  background-image: url("../images/antenna.png");
   width: 270px;
   height: 120px;
   content: "";
@@ -344,7 +344,7 @@ button {
 }
 
 .diagram-img::before {
-  background-image: url("../../images/diagram.png");
+  background-image: url("../images/diagram.png");
   width: 270px;
   height: 120px;
   content: "";
@@ -356,7 +356,7 @@ button {
 }
 
 .astronaut-img::before {
-  background-image: url("../../images/astronaut.png");
+  background-image: url("../images/astronaut.png");
   width: 270px;
   height: 120px;
   background-size: contain;
