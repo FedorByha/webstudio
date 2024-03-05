@@ -42,19 +42,19 @@
     transition: 250ms;
 
     &-portfolio {
-        border-bottom: 4px solid var(--accent-color);
+        border-bottom: 4px solid $accent-color;
     border-radius: 2px;
     padding-bottom: 28px;
     }
 
     &-studio {
-        border-bottom: 4px solid var(--accent-color);
+        border-bottom: 4px solid $accent-color;
     border-radius: 2px;
     padding-bottom: 80%;
     }
 
         &:hover {
-            color: var(--accent-color);
+            color: $accent-color;
         }
 
     }
@@ -82,14 +82,14 @@
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--second-text-color);
+    color: $nav-link-color;
     transition: 250ms;
     display: flex;
     gap: 10px;
     align-items: center;
 
     &:hover {
-        color: var(--accent-color);
+        $accent-color;
     }
     }
 
